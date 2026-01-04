@@ -8,6 +8,8 @@ import { updateLastDonatedAt } from './se_worker_state'
 import { getActiveMetas, getActiveGeneralMetas } from './se_metas'
 import { insertDonationMetaAssociations } from './se_donation_meta'
 import { insertDonationAllocations } from './se_donation_allocations'
+import { getFullState } from './state'
+import { io } from '../socketio/socket.server'
 
 /**
  * Extrai hashtags válidas da mensagem (em lowercase, sem #).
@@ -146,6 +148,20 @@ export async function processSeTip(donation: SeDonationInsert): Promise<boolean>
 
     await client.query('COMMIT')
     logger.info('database', `Tip fully processed: ${externalId} (donationId=${donationId})`)
+
+    // ✅ EMITIR O ESTADO AQUI, ainda dentro do try
+    if (io?.sockets) {
+      try {
+        const state = await getFullState()
+        io.emit('fullState', state)
+        logger.info('database', 'Emitted updated fullState via Socket.IO')
+      } catch (emitError) {
+        logger.error('database', 'Failed to emit fullState', {
+          error: String(emitError),
+        })
+      }
+    }
+
     return true
   } catch (error) {
     await client.query('ROLLBACK')
