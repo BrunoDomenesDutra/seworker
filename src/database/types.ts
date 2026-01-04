@@ -14,17 +14,26 @@ export interface SeDonationRow extends SeDonationInsert {
   received_at: string
 }
 
+// ⚠️ goal_amount vem do PostgreSQL como string (NUMERIC)
 export interface SeMetaRow {
   id: number
   name: string
-  goal_amount: number
+  goal_amount: string // ← string, não number
   active: boolean
   created_at: string
+  priority: number
 }
 
 export interface SeDonationMetaInsert {
   donation_id: number
   meta_id: number
+}
+
+// ✅ Novo: alocação parcial para metas gerais
+export interface SeDonationAllocationInsert {
+  donation_id: number
+  meta_id: number
+  allocated_amount: number
 }
 
 export interface SeWorkerStateRow {
