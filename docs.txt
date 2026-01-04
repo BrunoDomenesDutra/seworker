@@ -1,0 +1,77 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+
+================================================================
+
+
+CREATE TABLE se_donations (
+  id BIGSERIAL PRIMARY KEY,
+
+  -- ID único do StreamElements
+  external_id TEXT NOT NULL UNIQUE,
+
+  username TEXT NOT NULL,
+
+  amount NUMERIC(10,2) NOT NULL CHECK (amount > 0),
+  currency TEXT NOT NULL DEFAULT 'USD',
+
+  message TEXT,
+
+  -- timestamp real da doação (StreamElements)
+  donated_at TIMESTAMPTZ NOT NULL,
+
+  -- quando o Worker processou
+  received_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+
+================================================================
+
+
+CREATE TABLE se_metas (
+  id BIGSERIAL PRIMARY KEY,
+
+  -- nome SEM # (ex: setup, pcnovo)
+  name TEXT NOT NULL UNIQUE,
+
+  goal_amount NUMERIC(10,2) NOT NULL CHECK (goal_amount > 0),
+
+  active BOOLEAN NOT NULL DEFAULT true,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+
+================================================================
+
+
+CREATE TABLE se_donation_meta (
+  donation_id BIGINT PRIMARY KEY
+    REFERENCES se_donations(id) ON DELETE CASCADE,
+
+  meta_id BIGINT
+    REFERENCES se_metas(id)
+);
+
+
+================================================================
+
+
+CREATE TABLE se_worker_state (
+  id BOOLEAN PRIMARY KEY DEFAULT true,
+
+  -- último timestamp processado com sucesso
+  last_donated_at TIMESTAMPTZ NOT NULL
+);
+
+
+================================================================
+
+
+CREATE TABLE se_processed_events (
+  external_id TEXT PRIMARY KEY,
+  processed_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+
+================================================================
+
