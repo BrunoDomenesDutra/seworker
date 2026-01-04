@@ -14,6 +14,7 @@ export function createSocketIOServer(server: any): Server {
   })
 
   logger.info('socketio', 'Socket.IO server initialized')
+  console.log('Socket.IO server initialized')
 
   // Registra os eventos
   initSocketEvents(io)

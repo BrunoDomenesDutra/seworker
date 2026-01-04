@@ -9,3 +9,201 @@
 [2026-01-04T20:12:31.689Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T20:12:30.726Z
 [2026-01-04T20:12:31.711Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ac9ae04c99fe4e13c3443
 [2026-01-04T20:12:31.733Z] [INFO] [database] Tip fully processed: 695ac9ae04c99fe4e13c3443 (donationId=19)
+[2026-01-04T20:51:46.136Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad2e00de8f414e0e53f55 user=RANMZA amount=10 USD
+[2026-01-04T20:51:46.162Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad2e00de8f414e0e53f55
+[2026-01-04T20:51:46.208Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T20:51:46.230Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T20:51:46.276Z] [INFO] [database] DB SE Donation Allocations: donationId=20 (10 USD) → [geral_1000 (10)]
+[2026-01-04T20:51:46.301Z] [INFO] [database] DB SE Donation Allocations: allocated $10.00 across 1 meta(s)
+[2026-01-04T20:51:46.324Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T20:51:44.949Z
+[2026-01-04T20:51:46.348Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad2e00de8f414e0e53f55
+[2026-01-04T20:51:46.371Z] [INFO] [database] Tip fully processed: 695ad2e00de8f414e0e53f55 (donationId=20)
+[2026-01-04T20:51:46.549Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T20:52:48.029Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad31e0de8f414e0e54557 user=RANMZA amount=700 USD
+[2026-01-04T20:52:48.056Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad31e0de8f414e0e54557
+[2026-01-04T20:52:48.109Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T20:52:48.135Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T20:52:48.164Z] [INFO] [database] DB SE Donation Meta: associated donationId=21 to 1 meta(s)
+[2026-01-04T20:52:48.164Z] [INFO] [database] DB SE Donation Meta: donationId=21 → thematic meta: zelda
+[2026-01-04T20:52:48.217Z] [INFO] [database] DB SE Donation Allocations: donationId=21 (700 USD) → [geral_1000 (700)]
+[2026-01-04T20:52:48.244Z] [INFO] [database] DB SE Donation Allocations: allocated $700.00 across 1 meta(s)
+[2026-01-04T20:52:48.270Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T20:52:46.945Z
+[2026-01-04T20:52:48.297Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad31e0de8f414e0e54557
+[2026-01-04T20:52:48.324Z] [INFO] [database] Tip fully processed: 695ad31e0de8f414e0e54557 (donationId=21)
+[2026-01-04T20:52:48.532Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T20:59:25.099Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad4ac9be8c298323c54af user=RANMZA amount=700 USD
+[2026-01-04T20:59:25.122Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad4ac9be8c298323c54af
+[2026-01-04T20:59:25.168Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T20:59:25.190Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T20:59:25.212Z] [INFO] [database] DB SE Donation Meta: associated donationId=22 to 1 meta(s)
+[2026-01-04T20:59:25.212Z] [INFO] [database] DB SE Donation Meta: donationId=22 → thematic meta: zelda
+[2026-01-04T20:59:25.278Z] [INFO] [database] DB SE Donation Allocations: donationId=22 (700 USD) → [geral_1000 (90), geral_1500 (610)]
+[2026-01-04T20:59:25.301Z] [INFO] [database] DB SE Donation Allocations: allocated $700.00 across 2 meta(s)
+[2026-01-04T20:59:25.323Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T20:59:24.507Z
+[2026-01-04T20:59:25.345Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad4ac9be8c298323c54af
+[2026-01-04T20:59:25.367Z] [INFO] [database] Tip fully processed: 695ad4ac9be8c298323c54af (donationId=22)
+[2026-01-04T20:59:25.566Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:05:57.232Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad6338e533045dc8cadc8 user=RANMZA amount=700 USD
+[2026-01-04T21:05:57.256Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad6338e533045dc8cadc8
+[2026-01-04T21:05:57.301Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:05:57.324Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:05:57.347Z] [INFO] [database] DB SE Donation Meta: associated donationId=23 to 1 meta(s)
+[2026-01-04T21:05:57.347Z] [INFO] [database] DB SE Donation Meta: donationId=23 → thematic meta: zelda
+[2026-01-04T21:05:57.393Z] [INFO] [database] DB SE Donation Allocations: donationId=23 (700 USD) → [geral_500 (500), geral_1000 (200)]
+[2026-01-04T21:05:57.416Z] [INFO] [database] DB SE Donation Allocations: allocated $700.00 across 2 meta(s)
+[2026-01-04T21:05:57.439Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:05:55.892Z
+[2026-01-04T21:05:57.461Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad6338e533045dc8cadc8
+[2026-01-04T21:05:57.485Z] [INFO] [database] Tip fully processed: 695ad6338e533045dc8cadc8 (donationId=23)
+[2026-01-04T21:05:57.702Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:06:04.324Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad63c04c99fe4e13d5ce0 user=RANMZA amount=10 USD
+[2026-01-04T21:06:04.346Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad63c04c99fe4e13d5ce0
+[2026-01-04T21:06:04.391Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:06:04.413Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:06:04.457Z] [INFO] [database] DB SE Donation Allocations: donationId=24 (10 USD) → [geral_1000 (10)]
+[2026-01-04T21:06:04.480Z] [INFO] [database] DB SE Donation Allocations: allocated $10.00 across 1 meta(s)
+[2026-01-04T21:06:04.502Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:06:03.997Z
+[2026-01-04T21:06:04.523Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad63c04c99fe4e13d5ce0
+[2026-01-04T21:06:04.547Z] [INFO] [database] Tip fully processed: 695ad63c04c99fe4e13d5ce0 (donationId=24)
+[2026-01-04T21:06:04.620Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:06:07.663Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad63f8e533045dc8caef1 user=RANMZA amount=10 USD
+[2026-01-04T21:06:07.685Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad63f8e533045dc8caef1
+[2026-01-04T21:06:07.729Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:06:07.752Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:06:07.796Z] [INFO] [database] DB SE Donation Allocations: donationId=25 (10 USD) → [geral_1000 (10)]
+[2026-01-04T21:06:07.818Z] [INFO] [database] DB SE Donation Allocations: allocated $10.00 across 1 meta(s)
+[2026-01-04T21:06:07.841Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:06:07.234Z
+[2026-01-04T21:06:07.864Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad63f8e533045dc8caef1
+[2026-01-04T21:06:07.887Z] [INFO] [database] Tip fully processed: 695ad63f8e533045dc8caef1 (donationId=25)
+[2026-01-04T21:06:07.959Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:07:52.446Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad6a776eb5aaa2738c52f user=RANMZA amount=25 USD
+[2026-01-04T21:07:52.471Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad6a776eb5aaa2738c52f
+[2026-01-04T21:07:52.520Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:07:52.544Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:07:52.569Z] [INFO] [database] DB SE Donation Meta: associated donationId=26 to 1 meta(s)
+[2026-01-04T21:07:52.569Z] [INFO] [database] DB SE Donation Meta: donationId=26 → thematic meta: luigi
+[2026-01-04T21:07:52.617Z] [INFO] [database] DB SE Donation Allocations: donationId=26 (25 USD) → [geral_1000 (25)]
+[2026-01-04T21:07:52.641Z] [INFO] [database] DB SE Donation Allocations: allocated $25.00 across 1 meta(s)
+[2026-01-04T21:07:52.666Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:07:51.169Z
+[2026-01-04T21:07:52.690Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad6a776eb5aaa2738c52f
+[2026-01-04T21:07:52.716Z] [INFO] [database] Tip fully processed: 695ad6a776eb5aaa2738c52f (donationId=26)
+[2026-01-04T21:07:52.916Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:08:04.607Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad6b3007e001b080e248c user=RANMZA amount=25.5 USD
+[2026-01-04T21:08:04.630Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad6b3007e001b080e248c
+[2026-01-04T21:08:04.674Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:08:04.697Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:08:04.720Z] [INFO] [database] DB SE Donation Meta: associated donationId=27 to 1 meta(s)
+[2026-01-04T21:08:04.720Z] [INFO] [database] DB SE Donation Meta: donationId=27 → thematic meta: luigi
+[2026-01-04T21:08:04.765Z] [INFO] [database] DB SE Donation Allocations: donationId=27 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:08:04.788Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:08:04.810Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:08:03.135Z
+[2026-01-04T21:08:04.833Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad6b3007e001b080e248c
+[2026-01-04T21:08:04.857Z] [INFO] [database] Tip fully processed: 695ad6b3007e001b080e248c (donationId=27)
+[2026-01-04T21:08:05.053Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:08:10.040Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad6b904c99fe4e13d68c0 user=RANMZA amount=25.5 USD
+[2026-01-04T21:08:10.064Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad6b904c99fe4e13d68c0
+[2026-01-04T21:08:10.109Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:08:10.132Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:08:10.155Z] [INFO] [database] DB SE Donation Meta: associated donationId=28 to 1 meta(s)
+[2026-01-04T21:08:10.155Z] [INFO] [database] DB SE Donation Meta: donationId=28 → thematic meta: luigi
+[2026-01-04T21:08:10.200Z] [INFO] [database] DB SE Donation Allocations: donationId=28 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:08:10.222Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:08:10.245Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:08:09.655Z
+[2026-01-04T21:08:10.267Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad6b904c99fe4e13d68c0
+[2026-01-04T21:08:10.290Z] [INFO] [database] Tip fully processed: 695ad6b904c99fe4e13d68c0 (donationId=28)
+[2026-01-04T21:08:10.354Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:08:12.681Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ad6bc76eb5aaa2738c72c user=RANMZA amount=25.5 USD
+[2026-01-04T21:08:12.703Z] [INFO] [database] DB SE Donations: donation saved externalId=695ad6bc76eb5aaa2738c72c
+[2026-01-04T21:08:12.748Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:08:12.770Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:08:12.793Z] [INFO] [database] DB SE Donation Meta: associated donationId=29 to 1 meta(s)
+[2026-01-04T21:08:12.793Z] [INFO] [database] DB SE Donation Meta: donationId=29 → thematic meta: luigi
+[2026-01-04T21:08:12.838Z] [INFO] [database] DB SE Donation Allocations: donationId=29 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:08:12.861Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:08:12.883Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:08:12.268Z
+[2026-01-04T21:08:12.906Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ad6bc76eb5aaa2738c72c
+[2026-01-04T21:08:12.929Z] [INFO] [database] Tip fully processed: 695ad6bc76eb5aaa2738c72c (donationId=29)
+[2026-01-04T21:08:12.994Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:22:22.424Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ada0d84a5999692ba6a24 user=RANMZA amount=25.5 USD
+[2026-01-04T21:22:22.447Z] [INFO] [database] DB SE Donations: donation saved externalId=695ada0d84a5999692ba6a24
+[2026-01-04T21:22:22.484Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:22:22.502Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:22:22.523Z] [INFO] [database] DB SE Donation Meta: associated donationId=30 to 1 meta(s)
+[2026-01-04T21:22:22.523Z] [INFO] [database] DB SE Donation Meta: donationId=30 → thematic meta: mario
+[2026-01-04T21:22:22.561Z] [INFO] [database] DB SE Donation Allocations: donationId=30 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:22:22.581Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:22:22.601Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:22:21.202Z
+[2026-01-04T21:22:22.620Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ada0d84a5999692ba6a24
+[2026-01-04T21:22:22.640Z] [INFO] [database] Tip fully processed: 695ada0d84a5999692ba6a24 (donationId=30)
+[2026-01-04T21:22:22.845Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:22:30.318Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ada163878401b8848252c user=RANMZA amount=25.5 USD
+[2026-01-04T21:22:30.337Z] [INFO] [database] DB SE Donations: donation saved externalId=695ada163878401b8848252c
+[2026-01-04T21:22:30.375Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:22:30.393Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:22:30.412Z] [INFO] [database] DB SE Donation Meta: associated donationId=31 to 1 meta(s)
+[2026-01-04T21:22:30.412Z] [INFO] [database] DB SE Donation Meta: donationId=31 → thematic meta: mario
+[2026-01-04T21:22:30.449Z] [INFO] [database] DB SE Donation Allocations: donationId=31 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:22:30.468Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:22:30.487Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:22:30.102Z
+[2026-01-04T21:22:30.505Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ada163878401b8848252c
+[2026-01-04T21:22:30.524Z] [INFO] [database] Tip fully processed: 695ada163878401b8848252c (donationId=31)
+[2026-01-04T21:22:30.589Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:22:32.945Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ada1804c99fe4e13db928 user=RANMZA amount=25.5 USD
+[2026-01-04T21:22:32.964Z] [INFO] [database] DB SE Donations: donation saved externalId=695ada1804c99fe4e13db928
+[2026-01-04T21:22:33.001Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:22:33.020Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:22:33.039Z] [INFO] [database] DB SE Donation Meta: associated donationId=32 to 1 meta(s)
+[2026-01-04T21:22:33.039Z] [INFO] [database] DB SE Donation Meta: donationId=32 → thematic meta: mario
+[2026-01-04T21:22:33.076Z] [INFO] [database] DB SE Donation Allocations: donationId=32 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:22:33.095Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:22:33.113Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:22:32.644Z
+[2026-01-04T21:22:33.132Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ada1804c99fe4e13db928
+[2026-01-04T21:22:33.157Z] [INFO] [database] Tip fully processed: 695ada1804c99fe4e13db928 (donationId=32)
+[2026-01-04T21:22:33.222Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:22:36.814Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ada1c04c99fe4e13db99d user=RANMZA amount=25.5 USD
+[2026-01-04T21:22:36.832Z] [INFO] [database] DB SE Donations: donation saved externalId=695ada1c04c99fe4e13db99d
+[2026-01-04T21:22:36.868Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:22:36.886Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:22:36.905Z] [INFO] [database] DB SE Donation Meta: associated donationId=33 to 1 meta(s)
+[2026-01-04T21:22:36.905Z] [INFO] [database] DB SE Donation Meta: donationId=33 → thematic meta: mario
+[2026-01-04T21:22:36.941Z] [INFO] [database] DB SE Donation Allocations: donationId=33 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:22:36.959Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:22:36.977Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:22:36.363Z
+[2026-01-04T21:22:36.995Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ada1c04c99fe4e13db99d
+[2026-01-04T21:22:37.015Z] [INFO] [database] Tip fully processed: 695ada1c04c99fe4e13db99d (donationId=33)
+[2026-01-04T21:22:37.081Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:22:41.170Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ada20e304b5cc68c04fe9 user=RANMZA amount=25.5 USD
+[2026-01-04T21:22:41.188Z] [INFO] [database] DB SE Donations: donation saved externalId=695ada20e304b5cc68c04fe9
+[2026-01-04T21:22:41.224Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:22:41.243Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:22:41.261Z] [INFO] [database] DB SE Donation Meta: associated donationId=34 to 1 meta(s)
+[2026-01-04T21:22:41.261Z] [INFO] [database] DB SE Donation Meta: donationId=34 → thematic meta: mario
+[2026-01-04T21:22:41.298Z] [INFO] [database] DB SE Donation Allocations: donationId=34 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:22:41.316Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:22:41.333Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:22:40.544Z
+[2026-01-04T21:22:41.351Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ada20e304b5cc68c04fe9
+[2026-01-04T21:22:41.370Z] [INFO] [database] Tip fully processed: 695ada20e304b5cc68c04fe9 (donationId=34)
+[2026-01-04T21:22:41.435Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:22:58.652Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ada318e533045dc8d0dec user=RANMZA amount=25.5 USD
+[2026-01-04T21:22:58.675Z] [INFO] [database] DB SE Donations: donation saved externalId=695ada318e533045dc8d0dec
+[2026-01-04T21:22:58.721Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:22:58.744Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:22:58.767Z] [INFO] [database] DB SE Donation Meta: associated donationId=35 to 1 meta(s)
+[2026-01-04T21:22:58.767Z] [INFO] [database] DB SE Donation Meta: donationId=35 → thematic meta: mario
+[2026-01-04T21:22:58.814Z] [INFO] [database] DB SE Donation Allocations: donationId=35 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:22:58.838Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:22:58.861Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:22:57.139Z
+[2026-01-04T21:22:58.884Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ada318e533045dc8d0dec
+[2026-01-04T21:22:58.908Z] [INFO] [database] Tip fully processed: 695ada318e533045dc8d0dec (donationId=35)
+[2026-01-04T21:22:59.093Z] [INFO] [database] Emitted updated fullState via Socket.IO
+[2026-01-04T21:23:01.044Z] [INFO] [database] DB SE Donations: inserting donation externalId=695ada3384a5999692ba6f11 user=RANMZA amount=25.5 USD
+[2026-01-04T21:23:01.067Z] [INFO] [database] DB SE Donations: donation saved externalId=695ada3384a5999692ba6f11
+[2026-01-04T21:23:01.112Z] [INFO] [database] DB SE Metas: fetched 6 active metas
+[2026-01-04T21:23:01.135Z] [INFO] [database] DB SE Metas: fetched 3 active general metas
+[2026-01-04T21:23:01.158Z] [INFO] [database] DB SE Donation Meta: associated donationId=36 to 1 meta(s)
+[2026-01-04T21:23:01.158Z] [INFO] [database] DB SE Donation Meta: donationId=36 → thematic meta: mario
+[2026-01-04T21:23:01.205Z] [INFO] [database] DB SE Donation Allocations: donationId=36 (25.5 USD) → [geral_1000 (25.5)]
+[2026-01-04T21:23:01.228Z] [INFO] [database] DB SE Donation Allocations: allocated $25.50 across 1 meta(s)
+[2026-01-04T21:23:01.251Z] [INFO] [database] DB: updated last_donated_at to 2026-01-04T21:22:59.651Z
+[2026-01-04T21:23:01.274Z] [INFO] [database] DB Se Processed Events: Marked event as processed: 695ada3384a5999692ba6f11
+[2026-01-04T21:23:01.298Z] [INFO] [database] Tip fully processed: 695ada3384a5999692ba6f11 (donationId=36)
+[2026-01-04T21:23:01.358Z] [INFO] [database] Emitted updated fullState via Socket.IO

@@ -149,7 +149,7 @@ export async function processSeTip(donation: SeDonationInsert): Promise<boolean>
     await client.query('COMMIT')
     logger.info('database', `Tip fully processed: ${externalId} (donationId=${donationId})`)
 
-    // ✅ EMITIR O ESTADO AQUI, ainda dentro do try
+    // 8. Emite estado atualizado via Socket.IO
     if (io?.sockets) {
       try {
         const state = await getFullState()
