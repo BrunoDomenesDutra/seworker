@@ -38,7 +38,7 @@ curl --request POST \
     },
     "provider": "manualTest",
     "message": "Teste local #zelda",
-    "amount": 700,
+    "amount": 50,
     "currency": "USD",
     "imported": true
   }'

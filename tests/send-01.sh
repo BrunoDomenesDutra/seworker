@@ -37,8 +37,8 @@ curl --request POST \
       "email": "local@test.com"
     },
     "provider": "manualTest",
-    "message": "Teste local #meta1",
-    "amount": 10,
+    "message": "Teste local",
+    "amount": 25,
     "currency": "USD",
     "imported": true
   }'

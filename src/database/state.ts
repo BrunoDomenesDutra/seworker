@@ -21,6 +21,7 @@ export async function getFullState(): Promise<FullState> {
     const thematicRes = (await client.query(
       `
       SELECT
+        m.id,                 -- 👈 adicionado
         m.name,
         m.goal_amount,
         COALESCE(SUM(d.amount), 0) AS current
@@ -31,12 +32,13 @@ export async function getFullState(): Promise<FullState> {
       GROUP BY m.id, m.name, m.goal_amount
       ORDER BY m.name
       `
-    )) as { rows: { name: string; goal_amount: string; current: string }[] }
+    )) as { rows: { id: string; name: string; goal_amount: string; current: string }[] }
 
     // 3. Metas gerais: via se_donation_allocations
     const generalRes = (await client.query(
       `
       SELECT
+        m.id,                 -- 👈 adicionado
         m.name,
         m.goal_amount,
         COALESCE(SUM(da.allocated_amount), 0) AS current
@@ -46,15 +48,17 @@ export async function getFullState(): Promise<FullState> {
       GROUP BY m.id, m.name, m.goal_amount
       ORDER BY m.priority
       `
-    )) as { rows: { name: string; goal_amount: string; current: string }[] }
+    )) as { rows: { id: string; name: string; goal_amount: string; current: string }[] }
 
     const metas: MetaState[] = [
       ...thematicRes.rows.map((row) => ({
+        id: parseInt(row.id, 10),
         name: row.name,
         current: parseFloat(row.current),
         goal: parseFloat(row.goal_amount),
       })),
       ...generalRes.rows.map((row) => ({
+        id: parseInt(row.id, 10),
         name: row.name,
         current: parseFloat(row.current),
         goal: parseFloat(row.goal_amount),

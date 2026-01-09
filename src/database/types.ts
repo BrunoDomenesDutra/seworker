@@ -50,6 +50,7 @@ export interface GlobalState {
 }
 
 export interface MetaState {
+  id?: number
   name: string
   current: number
   goal: number
