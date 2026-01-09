@@ -5,7 +5,7 @@ import { SeDonationAllocationInsert, SeDonationInsert, SeMetaRow } from './types
 import { insertSeProcessedEvent, isEventProcessed } from './se_processed_events'
 import { insertSeDonation } from './se_donations'
 import { updateLastDonatedAt } from './se_worker_state'
-import { getActiveMetas, getActiveGeneralMetas } from './se_metas'
+import { getActiveMetas, getActiveGeneralMetas, deactivateCompletedThematicMetas } from './se_metas'
 import { insertDonationMetaAssociations } from './se_donation_meta'
 import { insertDonationAllocations } from './se_donation_allocations'
 import { getFullState } from './state'
@@ -141,6 +141,8 @@ export async function processSeTip(donation: SeDonationInsert): Promise<boolean>
         `DB SE Donation Allocations: donationId=${donationId} could not be allocated to any general meta`
       )
     }
+    // 👇 Nova linha
+    await deactivateCompletedThematicMetas(client)
 
     // 7. Atualiza last_donated_at e marca como processado
     await updateLastDonatedAt(donatedAt, client)

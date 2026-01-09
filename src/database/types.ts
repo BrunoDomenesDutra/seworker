@@ -14,13 +14,13 @@ export interface SeDonationRow extends SeDonationInsert {
   received_at: string
 }
 
-// ⚠️ goal_amount vem do PostgreSQL como string (NUMERIC)
 export interface SeMetaRow {
   id: number
   name: string
-  goal_amount: string // ← string, não number
+  goal_amount: string
   active: boolean
   created_at: string
+  completed_at: string | null // ← adicione esta linha
   priority: number
 }
 
@@ -51,9 +51,11 @@ export interface GlobalState {
 
 export interface MetaState {
   id?: number
+  active?: boolean
   name: string
   current: number
   goal: number
+  completed_at?: string | null // opcional no estado exposto
 }
 
 export interface FullState {
